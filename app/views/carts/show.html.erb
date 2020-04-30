@@ -4,6 +4,7 @@
     <h1>My Cart</h1>
   </header>
 
+  <% if (enhanced_cart == present?) %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +49,14 @@
       <% end %>
     </div>
   </div>
+
+  <% else %>
+  <div style="display: flex; flex-direction: column">
+    <div class="alert alert-warning" role="alert" style="text-align: center">
+      "Your cart is currenlty empty. Please add some items before proceed."
+    </div>
+    <a class="btn btn-primary" href="./">"To Home"</a>
+  </div>
+  <% end %>
 
 </section>
