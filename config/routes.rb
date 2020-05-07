@@ -20,8 +20,9 @@ Rails.application.routes.draw do
     resources :categories, except: [:edit, :update, :show, :destroy]
   end
 
-  # get '/cool' => 'gif#cool'
-  # get '/sweet' => 'gif#sweet'
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
 
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
