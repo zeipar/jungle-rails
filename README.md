@@ -7,6 +7,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of learning Rail
 !["Adding Products to Cart"](https://github.com/zeipar/jungle-rails/blob/master/docs/01_Product_List.png)
 
 - User can register and login, encrypted with bcrypt
+<br>
 !["Login Display"](https://github.com/zeipar/jungle-rails/blob/master/docs/02_Login_Display.png)
 
 - User can add products to cart
