@@ -3,11 +3,26 @@
 A mini e-commerce application built with Rails 4.2 for purposes of learning Rails by example.
 
 # Major Features of this Product
+- Products page shows a list of products can be purchased
+!["Adding Products to Cart"](https://github.com/zeipar/jungle-rails/blob/master/docs/01_Product_List.png)
+
 - User can register and login, encrypted with bcrypt
+!["Login Display"](https://github.com/zeipar/jungle-rails/blob/master/docs/02_Login_Display.png)
+
 - User can add products to cart
+!["Adding Products to Cart"](https://github.com/zeipar/jungle-rails/blob/master/docs/03_Add_Items_Cart.png)
+
+- My cart shows the list of items in your cart
+!["Adding Products to Cart"](https://github.com/zeipar/jungle-rails/blob/master/docs/04_Cart.png)
+
 - User can purchase the items in the cart with credit card (using stripe)
+!["Payment with Stripe"](https://github.com/zeipar/jungle-rails/blob/master/docs/05_Payment_with_Stripe.png)
+
 - Will be redirected to order details page after successful payment
+!["Order detail page upon successful order"](https://github.com/zeipar/jungle-rails/blob/master/docs/06_Order_Details.png)
+
 - Validations and Errors display error messages 
+
 - Rspec testing that coveres most part of the user experience within the application
 
 
