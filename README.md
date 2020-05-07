@@ -1,6 +1,15 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of learning Rails by example.
+
+# Major Features of this Product
+- User can register and login, encrypted with bcrypt
+- User can add products to cart
+- User can purchase the items in the cart with credit card (using stripe)
+- Will be redirected to order details page after successful payment
+- Validations and Errors display error messages 
+- Rspec testing that coveres most part of the user experience within the application
+
 
 
 ## Setup
